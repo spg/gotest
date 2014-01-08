@@ -7,7 +7,7 @@ type Vertex struct {
 }
 
 func main() {
-	v := new(Vertex)
+	var v *Vertex = new(Vertex)
 	fmt.Println(v)
 	v.X, v.Y = 11, 9
 	fmt.Println(v)
